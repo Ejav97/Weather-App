@@ -1,0 +1,80 @@
+body{
+    font-family: Arial, sans-serif;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1{
+    font-size: 5rem;
+}
+
+.cityDisplay{
+    font-size: 3.5rem;
+    letter-spacing: 1px;
+    color: white;
+    margin-bottom: 0;
+}
+
+.search-bar{
+    font-size: 1.5rem;
+    font-weight: bold;
+    border: none;
+    background-color: rgba(0, 0, 0, 0.10);
+    border-radius: 50px;
+    padding: 10px;
+}
+
+.search-btn{
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding: 10px;
+    border: none;
+    border-radius: 50px;
+    background-color: rgba(0, 255, 255, 0.50);
+    cursor: pointer;
+}
+.search-btn:hover{
+    transform: scale(1.05);
+    transition: 0.5s ease;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.35);
+}
+
+.card{
+    background:linear-gradient(180deg,rgba(0, 255, 255, 0.78), rgba(255, 166, 0, 0.865));
+    margin-top: 40px;
+    width: 40%;
+    text-align: center;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.emoji{
+    font-size: 7rem;
+    margin: 0;
+}
+
+.temp{
+    font-size: 3.5rem;
+    margin-left:20px;
+    color: white;
+}
+
+.humidity{
+    font-size: 1.5rem;
+    color: white;
+    margin-top: 0;
+}
+
+.descriptionDisplay{
+    color: white;
+    font-size: 1.25rem;
+}
+
+.errorDisplay{
+    font-size: 2.5rem;
+    color: white;
+}
